@@ -84,12 +84,17 @@ header {
     border-radius: 4px;
 }
 
+.btn:hover {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
 
 /* Main Content */
 main {
     height: calc(100vh - var(--main-height-delta));
     overflow-y: auto;
 }
+
 
 /* Speaker Grid */
 .speaker-grid {
@@ -141,7 +146,7 @@ main {
 }
 
 
-/* Action Button */
+/* Action Buttons */
 .action {
     display: flex;
     align-items: center;
