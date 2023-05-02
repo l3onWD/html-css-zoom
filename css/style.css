@@ -109,7 +109,12 @@ main {
 }
 
 
-/* Footer */
-footer {
+/* Controls */
+.controls {
     height: var(--footer-height);
+    display: flex;
+}
+
+.controls > * {
+    flex-grow: 1;
 }
