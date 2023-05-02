@@ -1,0 +1,34 @@
+/* Variables */
+:root {
+
+    --container: 1080px;
+}
+
+
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Generics */
+body {
+    font-family: sans-serif;
+}
+
+
+/* Utils */
+.container {
+    max-width: var(--container);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Layout */
+
+
+
+/* ====================================== */
