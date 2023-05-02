@@ -9,7 +9,7 @@
     --footer-height: 70px;
     --main-height-delta: calc(var(--header-height) + var(--footer-height));
     
-    --container: 1080px;
+    --container: 1200px;
 }
 
 
@@ -84,14 +84,30 @@ main {
 .speaker-grid {
     display: flex;
     flex-wrap: wrap;
+    padding: 10px 0;
 }
 
 .speaker-card {
     margin: 10px 5px;
     flex-basis: calc(100% / 5 - 10px);
+    position: relative;
+}
 
-    height: 50px;
-    background-color: #4bc800;
+.speaker-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.speaker-controls {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.speaker-controls .btn {
+    background-color: rgba(33, 33, 33, 0.7);
+    border-radius: 0;
 }
 
 
