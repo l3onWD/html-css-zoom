@@ -117,7 +117,6 @@ main {
 
 /* Controls */
 .controls {
-    height: var(--footer-height);
     background-color: var(--color-darkgray);
     display: flex;
 }
@@ -139,10 +138,14 @@ main {
     height: var(--footer-height);
 }
 
-.action button {
+.action-btn {
     display: flex;
     flex-direction: column;
     padding: 10px;
     gap: 10px;
     align-items: center;
+}
+
+.action-btn.action-btn-green {
+    color: var(--color-green);
 }
