@@ -6,6 +6,9 @@
     --color-red: #c81e1e;
 
     --container: 1080px;
+    --header-height: 60px;
+    --footer-height: 70px;
+    --main-height-delta: calc(var(--header-height) + var(--footer-height));
 }
 
 
@@ -32,6 +35,10 @@ body {
     margin-right: auto;
 }
 
+.mr-1 {
+    margin-right: 4px;
+}
+
 
 /* Layout */
 
@@ -47,18 +54,35 @@ body {
 
 /* Header */
 header {
-    height: 50px;
-    background-color: #4bc800;
+    height: var(--header-height);
+    padding: 4px;
+    text-align: right;
 }
+
+
+/* Buttons */
+.btn {
+    color: #fff;
+    background-color: var(--color-lightgray);
+    display: inline-block;
+    padding: 4px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
 
 /* Main Content */
 main {
-    height: calc(100vh - (50px + 70px));
+    height: calc(100vh - var(--main-height-delta));
     overflow-y: auto;
 }
 
+
 /* Footer */
 footer {
-    height: 70px;
+    height: var(--footer-height);
+
     background-color: #c81e1e;
 }
