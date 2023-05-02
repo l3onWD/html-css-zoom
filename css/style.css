@@ -112,9 +112,15 @@ main {
 /* Controls */
 .controls {
     height: var(--footer-height);
+    background-color: var(--color-darkgray);
     display: flex;
 }
 
-.controls > * {
+.controls-center {
     flex-grow: 1;
+    text-align: center;
+}
+
+.controls-right {
+    flex: 0 0 100px;
 }
