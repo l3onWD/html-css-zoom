@@ -1,5 +1,9 @@
 /* Variables */
 :root {
+    --color-darkgray: #212121;
+    --color-lightgray: #4a4a4a;
+    --color-green: #4bc800;
+    --color-red: #c81e1e;
 
     --container: 1080px;
 }
@@ -16,6 +20,8 @@
 /* Generics */
 body {
     font-family: sans-serif;
+    color: #fff;
+    background-color: #000;
 }
 
 
@@ -31,4 +37,28 @@ body {
 
 
 
+/* Debug */
+.border {
+    border: 2px dashed #fff;
+}
+
+
 /* ====================================== */
+
+/* Header */
+header {
+    height: 50px;
+    background-color: #4bc800;
+}
+
+/* Main Content */
+main {
+    height: calc(100vh - (50px + 70px));
+    overflow-y: auto;
+}
+
+/* Footer */
+footer {
+    height: 70px;
+    background-color: #c81e1e;
+}
