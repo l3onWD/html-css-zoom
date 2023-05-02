@@ -26,6 +26,7 @@ body {
     font-family: sans-serif;
     color: #fff;
     background-color: #000;
+    font-size: 14px;
 }
 
 
@@ -105,9 +106,9 @@ main {
     left: 0;
 }
 
-.speaker-controls .btn {
+.speaker-status {
     background-color: rgba(33, 33, 33, 0.7);
-    border-radius: 0;
+    padding: 4px;
 }
 
 
