@@ -100,13 +100,10 @@ main {
     display: block;
 }
 
-.speaker-controls {
+.speaker-status {
     position: absolute;
     bottom: 0;
     left: 0;
-}
-
-.speaker-status {
     background-color: rgba(33, 33, 33, 0.7);
     padding: 4px;
 }
@@ -115,6 +112,4 @@ main {
 /* Footer */
 footer {
     height: var(--footer-height);
-
-    background-color: #c81e1e;
 }
